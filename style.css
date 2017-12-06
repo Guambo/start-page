@@ -1,0 +1,117 @@
+body {
+	background-image: url("rainy.gif");
+	background-size: cover;
+}
+/*
+#container {
+	height: 100%;
+	width:100%;
+	font-family: Arial;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+*/
+#left {
+  width: 25%;
+  font-family: Arial;
+}
+
+#mid {
+	width: 25%
+}
+
+.link {
+	text-shadow: -20px 0px 20px #888888;
+	text-decoration: none;
+	font-size: 20pt;
+	color: white;
+	/*box-shadow: -4px 0px 20px #888888;*/
+	/*opacity: 0;*/
+}
+
+.descr {
+	font-style: italic;
+	/*color: #ef451a !important;*/
+	padding-left: 30pt;
+	/*opacity: 0;*/
+}
+
+/*--------header--------------*/
+#header-school {
+	color: white;
+}
+/*--------links--------------*/
+#school-link-one a:hover {
+	animation-name: example;
+	animation-duration: 0.4s;
+	/*animation-iteration-count: infinite;*/
+	animation-timing-function: ease-in;
+   animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+
+#school-link-two a:hover {
+	animation-name: example;
+	animation-duration: 0.4s;
+	/*animation-iteration-count: infinite;*/
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+
+#school-link-three a:hover  {
+	animation-name: example;
+	animation-duration: 0.4s;
+	/*animation-iteration-count: infinite;*/
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+/*--------descriptions--------------*/
+
+#a-box p:hover {
+	animation-name: example;
+	animation-duration: 0.4s;
+	/*animation-iteration-count: infinite;*/
+	animation-fill-mode: forwards;
+}
+
+#x-box p:hover  {
+	animation-name: example;
+	animation-duration: 0.4s;
+/*	animation-iteration-count: infinite;*/
+	animation-fill-mode: forwards;
+}
+/*-------initial stuff-------*/
+#school-link-one p{
+		padding-right: 100px !important;
+		opacity: 0;
+		animation-name: example2;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+		animation-delay: .25s;
+}
+#school-link-two p {
+		padding-right: 100px !important;
+		opacity: 0;
+		animation-name: example2;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+		animation-delay: .5s;
+}
+#school-link-three p {
+		padding-right: 150px !important;
+		opacity: 0;
+		animation-name: example2;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+		animation-delay: .75s;
+}
+/*-----------*/
+@keyframes example {
+	 0%   {color: white;}
+	 100% {color: yellow;}
+}
+
+@keyframes example2 {
+	from {opacity:0;}
+	to {opacity:1;}
+}
